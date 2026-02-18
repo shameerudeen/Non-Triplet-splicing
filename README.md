@@ -66,9 +66,7 @@ Output:
 - TSV identical to input, plus:
   - reference_transcript column
 
-Run:
-
-python rt.py
+Run: python rt.py
 
 
 STEP 2: DETERMINE INCLUSION STATUS (status.py)
@@ -90,9 +88,7 @@ Logic:
 - If event start–end is fully within a CDS exon → "included"
 - Otherwise → "skipped"
 
-Run:
-
-python status.py
+Run: python status.py
 
 
 STEP 3: CDS SIMULATION & NMD ANNOTATION (simulation.py)
@@ -132,9 +128,7 @@ Outputs:
    - alternate CDS
    - reference CDS
 
-Run:
-
-python simulation.py
+Run: python simulation.py
 
 Expected runtime:
 ~100 events → < 10 seconds
