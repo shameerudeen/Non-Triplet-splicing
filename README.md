@@ -1,4 +1,4 @@
-# Non-Triplet-splicing
+# Non-Triplet alternative splicing
 # CDS-Level Alternative Splicing Simulation & NMD Annotation Pipeline (see psuedocode in the methods section for additional explanation)
 [![DOI](https://zenodo.org/badge/1073974564.svg)](https://doi.org/10.5281/zenodo.19042708)
 This pipeline consists of three sequential Python scripts that:
